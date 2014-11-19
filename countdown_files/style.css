@@ -7,22 +7,24 @@
 	Coded by Anli Zaimi (azmind.com) for 1stwebdesigner.com
 
 ------------------------------------------------------- */
-
-
+.cover {
+		position:absolute;
+		width:100%;
+		z-index:-1;
+}
 
 body {
 	background: url(../images/body-pattern.jpg) top left repeat;
-	font-family: Arial, Helvetica, sans-serif;
-	padding-bottom: 40px;
+	font-family: Arial, Helvetica, sans-serif;;
 }
-
-
 
 /* ---- Header ---- */
 
 header {
 	width: 720px;
-	margin: 70px auto 0 auto;
+	margin: 0px auto 0 auto;
+	padding-top: 50px;
+	padding-bottom: 40px;
 }
 
 header h1 {
@@ -35,8 +37,10 @@ header h1 {
 
 header p {
 	margin: 20px 0 0 3px;
-	font-size: 14px;
+	font-size: 40px;
+	text-align:center;
 	color: #272727;
+	font-family: 'LeagueGothicRegular', Arial, Helvetica, sans-serif
 }
 
 
